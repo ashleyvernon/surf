@@ -1,8 +1,42 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+	color: #00B7FF;
+	margin-left: 5px;
+}
+
+/*Header and Navbar*/
+.navbar > ul > li > a{
+	color: #333333;
+}
+.navbar {
+	background: rgba(255, 255, 255, 0.3);
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+
+/*End Header and Navbar*/
+
+/*homepage styling*/
+.hero-center-box {
+	display: inline-block;
+	background: turquoise;
+}
+.hero_image {
+	size: contain;	
+	height: 1080px;
+}
+
+.homepage-main-hero {
+	background-image: url("/images/surf_2.jpg");
+	background-size: cover;
+}
+
+h1 {
+	color:;
 }
