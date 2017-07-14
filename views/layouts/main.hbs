@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
-    
+    <title>Monteray Bay Surf Lessons | {{title}}</title>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
     
   </head>
   <body>
+  	{{> header}}
 
-	{{> header}}
+    {{{body}}}
 
-	{{{body}}}
-
-	<div id="TA_cdsratingsonlynarrow566" class="TA_cdsratingsonlynarrow">
-		<ul id="DDqodJA" class="TA_links GY1D6w45SJQ">
-		<li id="sKXNJaU" class="pyNg20">
-		<a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/></a>
-		</li>
-		</ul>
-	</div>
-
-	<script src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=566&amp;locationId=1489200&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
-
+    {{> footer}}
   </body>
 </html>
+
