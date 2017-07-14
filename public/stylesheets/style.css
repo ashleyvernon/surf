@@ -18,8 +18,6 @@ a {
 	left: 0;
 	right: 0;
 }
-
-
 /*End Header and Navbar*/
 
 /*homepage styling*/
@@ -36,6 +34,21 @@ a {
 	background-image: url("/images/surf_2.jpg");
 	background-size: cover;
 }
+
+/* Review Page*/
+
+.review-hero {
+	height: 100px;
+	width: 100%;
+}
+.reviews {
+	margin-top: 130px;
+}
+.review-box {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/* End Review Page*/
 
 h1 {
 	color:;
