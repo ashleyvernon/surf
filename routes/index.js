@@ -9,11 +9,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'This is ABOUT'});
+  res.render('about', { title: 'About'});
 });
 
 router.get('/faq', function(req, res, next) {
-  res.render('faq', { title: 'This is FAQ'});
+  res.render('faq', { title: 'FAQ'});
 });
 
 router.get('/paddleboards', function(req, res, next) {
