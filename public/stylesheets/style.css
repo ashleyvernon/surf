@@ -38,15 +38,26 @@ a {
 /* Review Page*/
 
 .review-hero {
-	height: 100px;
-	width: 100%;
+	padding-top: 53px;
 }
 .reviews {
 	margin-top: 130px;
 }
 .review-box {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.box-one {
+	background: #90AFC5;
+}
+.box-two {
+	background: #336B87;
+}
+p {
+	color: #ffffff;
+}
+strong {
+	color: #ffffff;	
 }
 /* End Review Page*/
 
