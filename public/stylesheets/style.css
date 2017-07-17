@@ -1,22 +1,34 @@
 body {
-	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 14px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 a {
 	color: #00B7FF;
-	margin-left: 5px;
+	margin-left: 44px;
 }
 
 /*Header and Navbar*/
+.navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
+	background-color: #ffffff !important;
+}
+.header-main-section {
+	position: fixed !important;
+}
 .navbar > ul > li > a{
 	color: #333333;
 }
 .navbar {
 	background: rgba(255, 255, 255, 0.3);
-	position: fixed !important;
+/*	position: fixed !important;*/
 	top: 0;
 	left: 0;
 	right: 0;
+}
+.navbar-item {
+	padding-left: 55px;
+}
+#photo-item {
+	padding-right: 58px;
 }
 /*End Header and Navbar*/
 
@@ -31,27 +43,25 @@ a {
 }
 
 .homepage-main-hero {
+	background: rgba(255, 255, 255, 0.3);
 	background-image: url("/images/surf_2.jpg");
 	background-size: cover;
 }
 
 /* Review Page*/
 
-.review-hero {
-	padding-top: 53px;
-}
 .reviews {
-	
+
 }
 .review-box {
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .box-one {
-	background: #90AFC5;
+	background: #07575B;
 }
 .box-two {
-	background: #336B87;
+	background: #66A5AD;
 }
 p {
 	color: #ffffff;
