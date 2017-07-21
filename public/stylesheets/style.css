@@ -1,13 +1,12 @@
 body {
-	font: 14px "Open Sans", Helvetica, Arial, sans-serif;
+	font: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 a {
 	color: #00B7FF;
-	margin-left: 44px;
 }
 
-/*Header and Navbar*/
+/*HEADER NAVBAR STYLING*/
 .navbar-link.is-active, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:hover {
 	background-color: #ffffff !important;
 }
@@ -23,19 +22,50 @@ a {
 	top: 0;
 	left: 0;
 	right: 0;
+    height: 74px;
+}
+.navbar-brand.bulma {
+    margin-left: 100px;	
+    padding-top: 27px;
 }
 .navbar-item {
-	padding-left: 55px;
+	padding-left: 75px;
 }
 #photo-item {
 	padding-right: 58px;
 }
-/*End Header and Navbar*/
+.button.is-info.book-nav-button {
+    margin-left: 100px;
+    font-family: "Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-menu {
+    padding-right: 30px;
+}
+.fa-phone {
+	padding-top: 9px;
+    padding-left: 19px;
+}
+.fa-envelope {
+	margin-left: 800px;
+}
+/*FOOTER STYLING*/
+footer {
+	background-color: #2d2d2d !important;
+    height: 50px;
+}
 
-/*homepage styling*/
+/*INDEX PAGE STYLING*/
+.hero.is-primary {
+    height: 47px;
+    padding-top: 5px;
+}
+.hero.hero-nav {
+    height: 77px;
+}	
 .hero-center-box {
 	display: inline-block;
 	background: turquoise;
+	background: rgba(255, 255, 255, 0.3)
 }
 .hero_image {
 	size: contain;	
@@ -43,16 +73,17 @@ a {
 }
 
 .homepage-main-hero {
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.2);
 	background-image: url("/images/surf_2.jpg");
 	background-size: cover;
 }
-
-/* Review Page*/
-
-.reviews {
-
+.box.pricing{
+	text-align: center;
+	height: 250px;
 }
+
+/* REVIEW STYLING */
+
 .review-box {
     margin-left: 150px;
     margin-right: 150px;
@@ -63,14 +94,25 @@ a {
 .box-two {
 	background: #66A5AD;
 }
-p {
-	color: #ffffff;
-}
 strong {
 	color: #ffffff;	
 }
-/* End Review Page*/
+.review-content {
+	color: #ffffff;
+}
 
-h1 {
-	color:;
+/* ABOUT STYLING PAGE */
+.title {
+	text-align: center;
+}
+.is-7 {
+    font-size: 20px;
+}
+.about-column {
+    margin-left: 175px;
+}
+
+/* FAQ STYLING PAGE*/
+.faq-image {
+	display: inline;
 }
