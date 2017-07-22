@@ -24,6 +24,9 @@ a {
 	right: 0;
     height: 74px;
 }
+.nav-block {
+	height: 2.5em;
+}
 .navbar-brand.bulma {
     margin-left: 100px;	
     padding-top: 27px;
@@ -34,7 +37,10 @@ a {
 #photo-item {
 	padding-right: 58px;
 }
-.button.is-info.book-nav-button {
+.button {
+	height: 2em;
+}
+.button.is-primary.book-nav-button {
     margin-left: 100px;
     font-family: "Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -46,12 +52,47 @@ a {
     padding-left: 19px;
 }
 .fa-envelope {
-	margin-left: 800px;
+	margin-left: 10px;
+    margin-top: 8px;
+}
+.facebook-icon {
+	margin-left: 677px;
+	margin-top: 8px;
+}
+.fa-instagram {
+	color: #fff;
+}
+.navbar-item img {
+    max-height: 4rem;
+    width: 105px;
+    height: 125px;
+}
+.book-nav-button {
+	margin-top: 3px;
 }
 /*FOOTER STYLING*/
 footer {
 	background-color: #2d2d2d !important;
     height: 50px;
+}
+.facebook-footer, .copyright {
+	color: #fff;
+}
+.TA_socialButtonBubbles {
+	display: inline-block;
+}
+.insta-footer {
+	padding-left: 12px;
+}
+.trip-advisor-footer {
+	padding-left: 12px;
+	background-color: inherit;
+}
+/*.copyright {
+	margin-left: 400px;
+}*/
+.social-column {
+	margin-left: 600px;
 }
 
 /*INDEX PAGE STYLING*/
@@ -79,7 +120,25 @@ footer {
 }
 .box.pricing{
 	text-align: center;
-	height: 250px;
+	height: 500px;
+}
+.index-title {
+	font-size: 77px;
+	color: #fff;
+	font-weight: 500;
+}
+.subtitle-text {
+	color: #fff;
+}
+.rental-subtitle {
+	text-align: center;
+}
+.trip-advisor-column {
+	margin-left: 500px;
+}
+table {
+    width: 50%;
+    margin-left: 350px;
 }
 
 /* REVIEW STYLING */
