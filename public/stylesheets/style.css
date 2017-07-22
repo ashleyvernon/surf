@@ -25,7 +25,7 @@ a {
     height: 74px;
 }
 .nav-block {
-	height: 2.5em;
+	height: 3em;
 }
 .navbar-brand.bulma {
     margin-left: 100px;	
@@ -48,7 +48,7 @@ a {
     padding-right: 30px;
 }
 .fa-phone {
-	padding-top: 9px;
+	padding-top: 16px;
     padding-left: 19px;
 }
 .fa-envelope {
@@ -68,7 +68,7 @@ a {
     height: 125px;
 }
 .book-nav-button {
-	margin-top: 3px;
+	margin-top: 8px;
 }
 /*FOOTER STYLING*/
 footer {
@@ -112,7 +112,14 @@ footer {
 	size: contain;	
 	height: 1080px;
 }
-
+.hero-subtitle {
+    padding-left: 220px;
+    padding-right: 220px;
+}
+.hero-safety {
+	padding-top: 6em !important;
+	padding-bottom: 6em !important;
+}
 .homepage-main-hero {
 	background: rgba(255, 255, 255, 0.2);
 	background-image: url("/images/surf_2.jpg");
@@ -120,11 +127,47 @@ footer {
 }
 .box.pricing{
 	text-align: center;
-	height: 500px;
+	height: 450px;
+}
+.box.pricing-one {
+	background-image: url("/images/surf-11.jpg");
+	background-size: cover;
+}
+.box.pricing-two {
+	background-image: url("/images/surf-9.jpg");
+	background-size: cover;
+}
+.box.pricing-three {
+	background-image: url("/images/surf-10.jpg");
+	background-size: cover;
+}
+.box.pricing-four {
+	background-image: url("/images/surf-4.jpg");
+	background-size: cover;
+}
+.pricing-content {
+	margin-top: 3em;
+	text-align: center;
+}
+.pricing-block-one {
+	margin-top: 6em;
+	margin-left: 90px;
+}
+.pricing-block-two {
+	margin-top: -25px;
+	margin-left: 90px;
+}
+.pricing-block-three {
+	margin-top: 43px;
+	margin-left: 90px;
+}
+.pricing-block-four {
+    margin-top: 73px;
+    margin-left: 90px;
 }
 .index-title {
 	font-size: 77px;
-	color: #fff;
+	color: #07575B;
 	font-weight: 500;
 }
 .subtitle-text {
@@ -134,13 +177,16 @@ footer {
 	text-align: center;
 }
 .trip-advisor-column {
-	margin-left: 500px;
+	margin-left: 556px;
 }
 table {
-    width: 50%;
+    width: 50% !important;
     margin-left: 350px;
 }
 
+.rent-wetsuit-column {
+    margin-left: 272px;
+}
 /* REVIEW STYLING */
 
 .review-box {
@@ -159,6 +205,13 @@ strong {
 .review-content {
 	color: #ffffff;
 }
+.rent-surfboard-h1 {
+	font-size: 41px;
+}
+.book-button {
+	padding-left: 82px;
+    padding-top: 22px;
+}
 
 /* ABOUT STYLING PAGE */
 .title {
@@ -174,4 +227,13 @@ strong {
 /* FAQ STYLING PAGE*/
 .faq-image {
 	display: inline;
+}
+.faq-content {
+	color: #000;
+}
+.box-three {
+	color: #fff;
+}
+.box-four {
+	color: #fff;
 }
