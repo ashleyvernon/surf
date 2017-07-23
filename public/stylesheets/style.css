@@ -96,18 +96,15 @@ footer {
 .footer-hero {
 
 }
-/*.copyright {
-	margin-left: 400px;
-}*/
 .social-column {
 	margin-left: 600px;
 }
 
 /*INDEX PAGE STYLING*/
-.hero.is-primary {
+/*.hero.is-primary {
     height: 47px;
     padding-top: 5px;
-}
+}*/
 .hero.hero-nav {
     height: 77px;
 }	
@@ -228,6 +225,9 @@ strong {
 .book-button {
 	padding-left: 82px;
     padding-top: 22px;
+}
+.trip-advisor-column {
+    margin-left: 439px;
 }
 
 /* ABOUT STYLING PAGE */
