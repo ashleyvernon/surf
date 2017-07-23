@@ -130,7 +130,19 @@ footer {
 	background-image: url("/images/surf_2.jpg");
 	background-size: cover;
 }
-.box.pricing{
+.box.pricing-one{
+	text-align: center;
+	height: 450px;
+}
+.box.pricing-two{
+	text-align: center;
+	height: 450px;
+}
+.box.pricing-three{
+	text-align: center;
+	height: 450px;
+}
+.box.pricing-four{
 	text-align: center;
 	height: 450px;
 }
