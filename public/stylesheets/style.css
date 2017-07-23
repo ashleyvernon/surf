@@ -99,6 +99,9 @@ footer {
 .social-column {
 	margin-left: 600px;
 }
+.footer-button {
+    margin-top: 32px;
+}
 
 /*INDEX PAGE STYLING*/
 /*.hero.is-primary {
@@ -190,8 +193,8 @@ footer {
 .rental-subtitle {
 	text-align: center;
 }
-.trip-advisor-column {
-	margin-left: 556px;
+.trip-advisor-column-index {
+	margin-left: 500px;
 }
 table {
     width: 50% !important;
