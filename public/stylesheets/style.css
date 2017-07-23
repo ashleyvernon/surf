@@ -282,4 +282,7 @@ strong {
     [class*="column"] {
         width: 100%;
     }
+    [class*="hero-subtitle"] {
+    	padding-left: 0;
+    }
 }
