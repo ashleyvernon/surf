@@ -31,7 +31,7 @@ a {
 	position: fixed !important;
 }
 .navbar > ul > li > a {
-	color: #333333;
+	color: #000;
 }
 .navbar {
 	background: rgba(255, 255, 255, 0.3);
@@ -186,7 +186,7 @@ footer {
 	margin-top: 87px;
 }
 .pricing-block-two {
-	margin-top: -20px;
+	margin-top: 54px;
 }
 .pricing-block-three {
 	margin-top: 14px;
@@ -197,11 +197,11 @@ footer {
 }
 .index-title {
 	font-size: 77px;
-	color: #07575B;
+	color: #000;
 	font-weight: 500;
 }
 .subtitle-text {
-	color: #fff;
+	color: #000;
 }
 .rental-subtitle {
 	text-align: center;
