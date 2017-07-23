@@ -4,6 +4,7 @@ body {
 
 a {
 	color: #00B7FF;
+	display: inline-block;
 }
 
 /*HEADER NAVBAR STYLING*/
@@ -53,11 +54,11 @@ a {
 }
 .fa-envelope {
 	margin-left: 10px;
-    margin-top: 8px;
+    margin-top: 13px;
 }
 .facebook-icon {
 	margin-left: 677px;
-	margin-top: 8px;
+	margin-top: 14px;
 }
 .fa-instagram {
 	color: #fff;
@@ -70,6 +71,10 @@ a {
 .book-nav-button {
 	margin-top: 8px;
 }
+.number-nav {
+    padding-top: 10px;
+}
+
 /*FOOTER STYLING*/
 footer {
 	background-color: #2d2d2d !important;
@@ -194,7 +199,7 @@ table {
     margin-right: 150px;
 }
 .box-one {
-	background: #07575B;
+	background: #1995AD;
 }
 .box-two {
 	background: #66A5AD;
@@ -229,11 +234,11 @@ strong {
 	display: inline;
 }
 .faq-content {
-	color: #000;
+	color: #fff;
 }
 .box-three {
-	color: #fff;
+	background-color: #BCBABE;
 }
 .box-four {
-	color: #fff;
+	background-color: #A1D6E2;
 }
