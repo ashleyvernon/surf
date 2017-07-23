@@ -285,4 +285,7 @@ strong {
     [class*="hero-subtitle"] {
     	padding-left: 0;
     }
+    [class*="hero-title"] {
+    	font-size: 18px;
+    }
 }
